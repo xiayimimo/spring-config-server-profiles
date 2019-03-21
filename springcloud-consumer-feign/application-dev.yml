@@ -1,8 +1,8 @@
 server:
   port: 8201
-#logging:
-#  level:
-#    com.yasaka.stock.feign.MFeignClient: debug
+logging:
+  level:
+    com.example.scfeign.feign.MFeignClient: debug
 #feign:
 #  hystrix:
 #    enabled: true
